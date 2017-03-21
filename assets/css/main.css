@@ -186,7 +186,33 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
+		/* https://github.com/sethmacleod/aerial says use 1500 x 500 and fade to solid colors at the top */
+		/* Default Theme */
 		background: #348cb2 url("images/bg.jpg") bottom left;
+
+		/* Chinese New Years Theme */
+		/*background: #060d13 url("images/tianjin.jpg") bottom left;*/
+		/* #050a14 alternative bg color */
+
+		/* Michigan Theme */
+		/* html in index.html must be uncommented as well for this theme */
+		/*background: #00274c url("images/bighouse.jpg") bottom left;*/
+
+		/* Brookyln Theme */
+		/*background: #000000 url("images/brooklynbridge.jpg") bottom left;*/
+
+		/* Chicago Theme */
+		/*background: #00001a url("images/chicago.jpg") bottom left;*/
+
+		/* Mission Peak Theme */
+		/*background: #193366 url("images/missionpeak.jpg") bottom left;*/
+
+
+
+		/* Having trouble with matching the right color for this one. */
+		/* Twin Peaks Theme */
+		/*background: #004080 url("images/twinpeaks2.jpg") bottom left;*/
+
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
